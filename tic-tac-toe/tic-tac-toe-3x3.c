@@ -56,9 +56,9 @@ int main()
 	while('q' != ch)
 	{
 		if(turnX & 1)
-			mvaddstr(BOARD_SZ_Y, 3, "Tutn X");
+			mvaddstr(BOARD_SZ_Y, 3, "Turn X");
 		else
-			mvaddstr(BOARD_SZ_Y, 3, "Tutn 0");
+			mvaddstr(BOARD_SZ_Y, 3, "Turn 0");
 
 		move(cur_y, cur_x);
 		ch = getch();
